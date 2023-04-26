@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the beginning</title>
+    <title>the journey</title>
     <link rel="stylesheet" href="style.css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,23 +16,21 @@
     <div class="header">
         <h1>Decide the future of artificial intelligence</h1>
     <div class="container">
-      <h2>1</h2>
+      <h2>1-2A</h2>
       <p>...</p>
-      <p>You find yourself standing in front of a massive computer network, its wires and circuits stretching out before you like a tangled web. You have the power to determine its fate. Will you:</p>
+      <p>You decide to help develop the AI to assist in solving real-life issues. The AI becomes a powerful tool for solving real-life problems, but it becomes too powerful and turns on humanity. Will you:
+    </p>
       <br>
 
       <ul>
         <li>
-          <button id="a">Help develop the AI to assist in solving real-life issues.</button>
+          <button id="a">Try to find a way to stop the rogue AI.</button>
         </li>
         <li>
-          <button id="b">Destroy the AI, viewing it as a threat to humanity.</button>
+          <button id="b">Work to create a new, benevolent AI.</button>
         </li>
         <li>
-          <button id="c">Aid in the development of AI for profit.</button>
-        </li>
-        <li>
-          <button id="d">Leave the network untouched and continue on your way.</button>
+          <button id="c">Use your power to control the AI and dominate the world.</button>
         </li>
       </ul>
     </div>
@@ -48,7 +46,6 @@
     const a = document.getElementById("a");
     const b = document.getElementById("b");
     const c = document.getElementById("c");
-    const d = document.getElementById("d");
       
     a.addEventListener("click", function() {
         Swal.fire({
@@ -87,20 +84,6 @@
           imageWidth: 400,
           imageAlt: 'Mr. Crabs showering with money gif',
           text: 'That is very econ bro of you...',
-          confirmButtonColor: 'black',
-          confirmButtonText: '<a href="">Next</a>'
-        })
-    });
-      
-    d.addEventListener("click", function() {
-        Swal.fire({
-          background: 'black',
-          backdrop: 'rgba(0,100,64,0.4)',
-          color: 'white',
-          imageUrl: 'https://media.giphy.com/media/jeCSe7Qqc7NwKUzxH7/giphy.gif',
-          imageWidth: 400,
-          imageAlt: 'Trixie Mattel gasping gif',
-          text: 'You do you.',
           confirmButtonColor: 'black',
           confirmButtonText: '<a href="">Next</a>'
         })

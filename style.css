@@ -1,3 +1,7 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -5,25 +9,39 @@ a {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F7F7F7;
+    background-color: black;
     margin: 0;
     padding: 0;
+}
+
+.header {
+    background-color: black;
+    color: rgb(0, 255, 64);
+    padding: 20px;
+    text-align: center;
 }
   
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    border: rgb(0, 255, 64) 1px solid;
+    box-shadow: 0 0 10px rgb(0, 255, 64);
 }
   
 h1 {
-    font-size: 36px;
-    margin-top: 0;
+    color: rgb(0, 255, 64);
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 p {
+    color: rgb(0, 255, 64);
     font-size: 18px;
     line-height: 1.5;
 }
@@ -41,19 +59,29 @@ li {
 button {
     font-size: 18px;
     padding: 10px 20px;
-    background-color: white;
-    color: black;
-    border: black 1px solid;
+    background-color: black;
+    color: rgb(0, 255, 64);
+    border: rgb(0, 255, 64) 1px solid;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #915056;
-    color: white;
+    background-color: rgb(0, 255, 64);
+    color: black;
 }
 
 button:focus {
     outline: none;
 }
-  
+
+.credit {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(0, 255, 64);
+    margin-top: 20px;
+}
+
+.link {
+    text-decoration: underline;
+}
