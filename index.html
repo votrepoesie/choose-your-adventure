@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the future of artificial intelligence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>What will you do with artificial intelligence?</h1>
+        <br>
+        <h3>Welcome to the world of the future, a dark and twisted dystopia ruled by the cold hand of the machine. You are the player, and your choices will determine the fate of this world. </h3>
+        <br>
+        <p>You find yourself standing in front of a massive computer network, its wires and circuits stretching out before you like a tangled web. You have the power to determine its fate. Will you:</p>
+        <br>
+
+        <ul>
+          <li>
+            <button id="a">Help develop the AI to assist in solving real-life issues.</button>
+          </li>
+          <li>
+            <button id="b">Destroy the AI, viewing it as a threat to humanity.</button>
+          </li>
+          <li>
+            <button id="c">Aid in the development of AI for profit.</button>
+          </li>
+          <li>
+            <button id="d">Leave the network untouched and continue on your way.</button>
+          </li>
+        </ul>
+
+    </div>
+
+    <div class="credit"></div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+
+    const a = document.getElementById("a");
+    const b = document.getElementById("b");
+    const c = document.getElementById("c");
+    const d = document.getElementById("d");
+      
+    a.addEventListener("click", function() {
+        Swal.fire({
+          imageUrl: 'https://media1.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif?cid=ecf05e474f6muzmld527mxqgq5bbnx4jdgslctm4mbiwi8ir&ep=v1_gifs_search&rid=giphy.gif&ct=g',
+          imageWidth: 400,
+          imageAlt: 'Deadpool clapping gif',
+          text: 'Hope you find what you are looking for!',
+          confirmButtonText: '<a href="">Next</a>'
+        })
+    })
+      
+    b.addEventListener("click", function() {
+        Swal.fire({
+          imageUrl: 'https://media.giphy.com/media/hHMy1Dxv1lwIPQtjAD/giphy.gif',
+          imageWidth: 400,
+          imageAlt: 'Trixie Mattel gasping gif',
+          text: 'How ruthless!',
+          confirmButtonText: '<a href="">Next</a>'
+        })
+    });
+      
+    c.addEventListener("click", function() {
+        Swal.fire({
+          imageUrl: 'https://media.giphy.com/media/LdOyjZ7io5Msw/giphy.gif',
+          imageWidth: 400,
+          imageAlt: 'Mr. Crabs showering with money gif',
+          text: 'That is very econ bro of you...',
+          confirmButtonText: '<a href="">Next</a>'
+        })
+    });
+      
+    d.addEventListener("click", function() {
+        Swal.fire({
+          imageUrl: 'https://media.giphy.com/media/jeCSe7Qqc7NwKUzxH7/giphy.gif',
+          imageWidth: 400,
+          imageAlt: 'Trixie Mattel gasping gif',
+          text: 'You do you.',
+          confirmButtonText: '<a href="">Next</a>'
+        })
+    });
+
+</script>
+</html>
