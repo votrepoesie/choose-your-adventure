@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the journey</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Decide the future of artificial intelligence</h1>
+    <div class="container">
+      <h2>1-2B</h2>
+      <p>...</p>
+      <p>You decide to destroy the AI, viewing it as a threat to humanity. Humanity suffers without its help. Will you:</p>
+      <br>
+
+      <ul>
+        <li>
+          <button id="a">Try to find a way to help humanity survive without the AI.</button>
+        </li>
+        <li>
+          <button id="b">Work to create a new, non-AI solution to real-life problems.</button>
+        </li>
+        <li>
+          <button id="c">Take advantage of the chaos caused by the AI's destruction.</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="credit">
+       <p>Created with love, ennui, and senioritis by <a href="" class="link">Vivian</a> && <a href="" class="link">ChatGPT</a></p>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+
+    const a = document.getElementById("a");
+    const b = document.getElementById("b");
+    const c = document.getElementById("c");
+      
+    a.addEventListener("click", function() {
+        Swal.fire({
+          background: 'black',
+          backdrop: 'rgba(0,100,64,0.4)',
+          color: 'white',
+          imageUrl: 'https://media.giphy.com/media/Guccz4Oq87bncsm1j4/giphy.gif',
+          imageWidth: 400,
+          imageAlt: 'gif',
+          text: 'I cannot wait to see how this goes!',
+          confirmButtonText: '<a href="">Next</a>',
+          confirmButtonColor: 'black',
+        })
+    })
+      
+    b.addEventListener("click", function() {
+        Swal.fire({
+          background: 'black',
+          backdrop: 'rgba(0,100,64,0.4)',
+          color: 'white',
+          imageUrl: '',
+          imageWidth: 400,
+          imageAlt: 'gif',
+          text: '',
+          confirmButtonText: '<a href="">Next</a>',
+          confirmButtonColor: 'black',
+        })
+    });
+      
+    c.addEventListener("click", function() {
+        Swal.fire({
+          background: 'black',
+          backdrop: 'rgba(0,100,64,0.4)',
+          color: 'white',
+          imageUrl: '',
+          imageWidth: 400,
+          imageAlt: 'gif',
+          text: '',
+          confirmButtonText: '<a href="">Next</a>',
+          confirmButtonColor: 'black',
+        })
+    });
+
+</script>
+</html>
